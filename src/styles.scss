@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-body, section, article{
+@import "assets/grid/main-grid.css";
+
+body, section, article, p, span{
   font-family: Georgia,"Times New Roman",Times,serif;
 }
 
 .ui-card-header{
   padding: 10px;
 }
-
