@@ -1,70 +1,32 @@
-
-.dropdownmenu .home-dropdown-list, .dropdownmenu .home-dropdown-item {
-  margin: 0;
-  padding: 0;
+.footer-container {
+  margin-top: 60px;
+  padding: 10px 0;
+  color: #A8A7A6;
+  border: 1px solid #222;
 }
 
-.dropdownmenu .home-dropdown-list {
-  list-style: none;
-  width: 100%;
-  height: 50px;
-  background: white;
-}
-
-.dropdownmenu .home-dropdown-item {
-  float: left;
-  position: relative;
-  width: auto;
-
-}
-
-.dropdownmenu a {
-  background: white;
-  color: black;
-  display: block;
-  font: bold 15px sans-serif;
-  padding: 15px 25px;
-  height: 50px;
+.footer-top {
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
+  font-size: 14px;
+  display: flex;
 }
-
-.dropdownmenu .home-dropdown-item:hover a {
+.footer-top-left{
+  width: 30%;
+  padding: 20px;
+  color: #A8A7A6;
+  font-size: 15px;
+}
+.footer-top-title{
   color: #5882FA;
 }
-
-#submenu {
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 35px;
-  visibility: hidden;
-  z-index: 1;
+.footer-down {
+  background-color: #5882FA;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.home-dropdown-item:hover .home-dropdown-list#submenu {
-  opacity: 0.8;
-  top: 40px; /* adjust this as per top nav padding top & bottom comes */
-  visibility: visible;
-
-}
-
-#submenu .home-dropdown-item {
-  float: none;
-  width: 100%;
-}
-
-#submenu a:hover {
-  background: #5882FA;
-  color: white;
-}
-
-#submenu a {
-  background-color: #000000;
-  color: white;
+.footer-down-text {
+  font-weight: 600;
 }
