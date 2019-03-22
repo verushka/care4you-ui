@@ -1,15 +1,24 @@
 <nav class="dropdownmenu">
   <ul class="home-dropdown-list">
-    <li class="home-dropdown-item"><a class="dropdownmenu-link" href="/home">Home</a></li>
-    <li class="home-dropdown-item"><a class="dropdownmenu-link" href="">About Me</a></li>
-    <li class="home-dropdown-item"><a class="dropdownmenu-link" href="#">Department</a>
+    <li class="home-dropdown-item">
+      <a class="dropdownmenu-link" [routerLink]="['/home']" >
+        Home
+      </a>
+    </li>
+    <li class="home-dropdown-item">
+      <a class="dropdownmenu-link" [routerLink]="['/aboutMe']">About Me</a>
+    </li>
+    <li class="home-dropdown-item">
+      <a class="dropdownmenu-link" [routerLink]="['/department']">Department</a>
       <ul class="home-dropdown-list" id="submenu">
-        <li class="home-dropdown-item"><a class="dropdownmenu-link" href="#">Department 1</a></li>
-        <li class="home-dropdown-item"><a class="dropdownmenu-link" href="#">Department 2</a></li>
-        <li class="home-dropdown-item"><a class="dropdownmenu-link" href="#">Department 3</a></li>
+        <li class="home-dropdown-item"><a class="dropdownmenu-link" [routerLink]="['/department1']">Department 1</a></li>
+        <li class="home-dropdown-item"><a class="dropdownmenu-link" [routerLink]="['/department2']">Department 2</a></li>
+        <li class="home-dropdown-item"><a class="dropdownmenu-link" [routerLink]="['/department3']">Department 3</a></li>
       </ul>
     </li>
-    <li class="home-dropdown-item"><a class="dropdownmenu-link" href="#">News</a></li>
-    <li class="home-dropdown-item"><a class="dropdownmenu-link" href="#">Contact Us</a></li>
+    <li class="home-dropdown-item"><a class="dropdownmenu-link" [routerLink]="['/incidents']">Incidents</a></li>
+    <li class="home-dropdown-item"><a class="dropdownmenu-link" [routerLink]="['/securityPolitics']">Security Politics</a></li>
+    <li class="home-dropdown-item"><a class="dropdownmenu-link" [routerLink]="['/securityEquipment']">Security Equipment</a></li>
+    <li class="home-dropdown-item"><a class="dropdownmenu-link" [routerLink]="['/contactUs']">Contact Us</a></li>
   </ul>
 </nav>
